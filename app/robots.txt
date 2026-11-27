@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://www.ipastudenthousing.com/sitemap.xml
+Sitemap: https://www.ipastudenthousing.com/news/sitemap.xml

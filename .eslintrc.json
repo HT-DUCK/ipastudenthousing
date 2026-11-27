@@ -1,0 +1,41 @@
+{
+	"extends": [
+		"next/core-web-vitals",
+		"next/typescript",
+		"prettier"
+	],
+	"rules": {
+		"@typescript-eslint/no-explicit-any": "off",
+		"@typescript-eslint/prefer-as-const": "off",
+		"arrow-body-style": [
+			"error",
+			"as-needed"
+		],
+		"eqeqeq": "error",
+		"global-require": "error",
+		"jsx-a11y/iframe-has-title": "error",
+		"no-empty": "error",
+		"no-empty-function": "error",
+		"no-inner-declarations": "error",
+		"no-return-assign": "error",
+		"no-use-before-define": [
+			"error",
+			{
+				"functions": false
+			}
+		],
+		"object-shorthand": "error",
+		"prefer-arrow-callback": "error",
+		"prefer-template": "error",
+		"radix": "error",
+		"react/display-name": "off",
+		"react-hooks/exhaustive-deps": "off",
+		"react/jsx-props-no-spreading": [
+			"error",
+			{
+				"custom": "ignore"
+			}
+		],
+		"react/self-closing-comp": "error"
+	}
+}
